@@ -43,7 +43,7 @@ Observação: No MongoDB não é preciso criar as bases de dados, pois a aplica�
 
 Primeiramente, faça o clone do repositório:
 ```
-https://github.com/emmanuelneri/productivity-with-spring.git
+https://github.com/gpotje/intros-spring.git
 ```
 Feito isso, acesse o projeto:
 ```
@@ -70,7 +70,7 @@ Started AppConfig in xxxx seconds (JVM running for xxxx)
 Antes de rodar a aplicação é preciso garantir que as seguintes dependências estejam corretamente instaladas:
 
 ```
-Java 8
+Java 11
 Docker 17.06.0 
 Maven 3.3.3 
 ```
