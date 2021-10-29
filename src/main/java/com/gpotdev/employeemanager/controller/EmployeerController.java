@@ -17,14 +17,19 @@ import org.springframework.web.bind.annotation.RestController;
 import com.gpotdev.employeemanager.model.Employee;
 import com.gpotdev.employeemanager.services.EmployeeServices;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+
 @RestController
 @RequestMapping("/employee")
+@Api(value = "APi REST employee")
 public class EmployeerController {
     
 	@Autowired
 	private EmployeeServices service;
 
 	@GetMapping("/all")
+	@ApiOperation(value = "Lista todos os Brokerages do banco")
 	public ResponseEntity<List<Employee>> getAllEmployees() {
 		List<Employee> employees = service.findAllEmployees();
 		return new ResponseEntity<>(employees, HttpStatus.OK);
