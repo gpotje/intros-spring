@@ -19,9 +19,8 @@ O projeto é uma aplicação back-end com objetivo de demonstrar a produtividade
 
 Antes de rodar a aplicação é preciso garantir que as seguintes dependências estejam corretamente instaladas:
 ```
-Java 8
+Java 11
 PostgreSQL 9.6
-MongoDB 3.5.6
 Maven 3.3.3 
 ```
 
